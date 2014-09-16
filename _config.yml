@@ -6,8 +6,8 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 # Site Settings
 title: "GDG Hi Pic"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest are events all around the world"
+email: "faubournumerique@gmail.com"
+description: "Faubourg Numérique organise une journée \"Systèmes & Objets Connectés\" le 15 Octobre à Saint-Quentin."
 baseurl: "/zeppelin"
 url: "http://gdg-x.github.io"
 permalink: "/blog/:title"
