@@ -6,7 +6,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 # Site Settings
 title: "GDG Hi Pic"
-email: "faubournumerique@gmail.com"
+email: "faubourgnumerique@gmail.com"
 description: "Faubourg Numérique organise une journée \"Systèmes & Objets Connectés\" le 15 Octobre à Saint-Quentin."
 baseurl: "/zeppelin"
 url: "http://gdg-x.github.io"
@@ -16,14 +16,14 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 
 # Organizer Info
 organizerName: "GDG Hi Pic"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerAlternateName: "Google Developer Group Hi Pic"
+organizerDescription: "La communauté des développeurs des technos Google en Haute Picardie."
+organizerEmail: "faubourgnumerique@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://gdg-hi-pic.appspot.com/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "objets, gdg, connectes, google, programmation, android, wear, developers, picardie"
 twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -50,9 +50,9 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest<typeout>2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Saison", "France", "Belgique", "Allemagne"'
+heroTitle: "GDG Hi Pic"
+eventDate: "15 Octobre 2014"
+typeoutTextValues: '" ", "Saison", "France", "Belgique", "Allemagne"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
