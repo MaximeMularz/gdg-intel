@@ -52,11 +52,11 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "Journée : "
 eventDate: "15 Octobre 2014"
-typeoutTextValues: '"Android Wear ", "Intel", "Galileo", "Google", "Fi-ware"'
+typeoutTextValues: '"Android Wear", "Intel Galileo", "GDG", "Fi-ware"'
 typeoutFallback: "GDG"
 #heroButtons:
  #- {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
- #- {permalink: "/#tickets", text: "Inscriptions"}
+ - {permalink: "/#tickets", text: "Inscriptions"}
 
 # About Block
 aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
