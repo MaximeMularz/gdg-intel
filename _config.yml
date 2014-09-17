@@ -54,8 +54,8 @@ heroTitle: "Journée : "
 eventDate: "15 Octobre 2014"
 typeoutTextValues: '"Android Wear", "Intel Galileo", "GDG", "Fi-ware"'
 typeoutFallback: "GDG"
-#heroButtons:
- #- {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
+heroButtons:
+# - {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
  - {permalink: "/#tickets", text: "Inscriptions"}
 
 # About Block
