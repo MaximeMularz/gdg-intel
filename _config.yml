@@ -50,10 +50,10 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG"
+heroTitle: "Journée : "
 eventDate: "15 Octobre 2014"
 typeoutTextValues: '"Android Wear ", "Intel", "Galileo", "Google", "Fi-ware"'
-typeoutFallback: "Season"
+typeoutFallback: "GDG"
 #heroButtons:
  #- {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
  #- {permalink: "/#tickets", text: "Inscriptions"}
