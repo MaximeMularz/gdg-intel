@@ -46,7 +46,7 @@ navigationLinks:
 #bottomNavigationLinks:
  #- {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
 rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
+ - {link: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -56,7 +56,7 @@ typeoutTextValues: '"Android Wear", "Intel NDK","Galileo","Fi-Ware"'
 typeoutFallback: "GDG"
 heroButtons:
 # - {link: "http://bit.ly/dfua-c4p", text: "Inscriptions"}
- - {permalink: "/#tickets", text: "Inscriptions"}
+ - {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # About Block
 aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
