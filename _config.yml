@@ -56,7 +56,7 @@ typeoutTextValues: '"Android Wear", "Intel NDK","Galileo","Fi-Ware"'
 typeoutFallback: "GDG"
 heroButtons:
 - {link: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
-- {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
+#- {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # About Block
 aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
@@ -99,9 +99,9 @@ mapCenterCoordinates: "49.850780, 3.309139"
 mapMobileCenterCoordinates: "49.850780, 3.309139"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Localisation"
 venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
+venueSmallImage1: "cci-aisne-logo.gif"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
 venueTitle: "CCI de l'Aisne"
