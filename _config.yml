@@ -55,8 +55,8 @@ eventDate: "Picardie>Aisne>Saint-Quentin, 15 Octobre 2014"
 typeoutTextValues: '"Android Wear", "Intel NDK","Galileo","Fi-Ware"'
 typeoutFallback: "GDG"
 heroButtons:
-- {link:"https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
-# - {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
+- {link: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
+- {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # About Block
 aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
