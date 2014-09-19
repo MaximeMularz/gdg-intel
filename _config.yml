@@ -99,7 +99,7 @@ mapCenterCoordinates: "49.850780, 3.309139"
 mapMobileCenterCoordinates: "49.850780, 3.309139"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Localisation"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "cci-aisne-logo.gif"
 venueSmallImage2: "cci-aisne-1.jpg"
