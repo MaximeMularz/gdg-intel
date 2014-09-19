@@ -1,76 +1,13 @@
-<!-- Begin Post-->
-<section id="post-section" class="post-section">
-    <div class="content-wrapper text-left">
-        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-            <div class="col-lg-8 col-md-10 col-xs-12">
-                <article class="row post">
-                    {% if include.isStaticPost == false %}
-                    <div class="post-header">
-                        <div class="published col-md-6 col-xs-6 pull-left">
-                            <span class="caption">Posted:</span>
-                            <span class="publish-date" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
-                        </div>
-                        <div class="share col-md-6 col-xs-6 pull-right">
-                            <ul class="social-links">
-                            {% assign postUrl = page.url | prepend: site.baseurl | prepend: site.url %} 
-                                <li>
-                                    <a href="#" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
-                                        <svg class="icon icon-google-plus" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-google-plus"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
-                                        <svg class="icon icon-twitter" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
-                                        <svg class="icon icon-facebook" viewBox="0 0 30 32">
-                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-                    
-                    <div class="post-body">{{ content }}</div>
+<p>Faubourg Numérique: 
+Une stratégie “services et objets connectés” portée par des entrepreneurs et des universitaires de Haute Picardie pour ouvrir de nouvelles voies de développement économique 
+Faubourg Numérique, c'est d'abord un lieu de travail au cœur de Saint-Quentin: des bureaux et un atelier de prototypage (“Living Lab”) dédié à la mutualisation, l’échange et la collaboration entre ses contributeurs, entreprises ou porteurs de projets. Cet espace de coworking a été stratégiquement localisé au Faubourg d'Isle, à deux pas de la gare, du futur Pôle Universitaire (UPJV-INSSET, IUT) et de la plateforme de transfert technologique INNOVALTECH: le but est de créer un effet de cluster afin de stimuler et dynamiser les travaux collaboratifs entre les entreprises, les étudiants et les enseignants-chercheurs, autour de projets de services et objets connectés, rassemblant les compétences complémentaires développées localement: mécanique numérique, systèmes embarqués, cloud computing et logistique. Pour compléter le panel des compétences, des relations étroites sont également établies avec l’IAE d’Amiens pour intégrer une vision marketing et commerciale dès le début des projets. 
 
-                    <div id="page-navigation" class="page-navigation">
-                        <div class="next col-xs-6">
-                            {% if page.next.url %}
-                                <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title | strip_html }}">&laquo; {{page.next.title | strip_html | truncate: 15 }}</a>
-                            {% endif %}
-                        </div>
-                        <div class="previous col-xs-6 text-right">
-                            {% if page.previous.url %}
-                                <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a>
-                            {% endif %}
-                        </div>
-                    </div>
+Pour animer cette dynamique de cluster, une à deux fois par trimestre Faubourg Numériqe organise des événements qui permettent de présenter et d’échanger les points de vues sur les opportunités et les technologies liées aux services et objets connectés. 
+Notre prochain rendez-vous est fixé au 15 Octobre 2014 à la CCI de l’Aisne. Le premier temps fort de cette journée sera la série de présentation concernant le programme européen “Future Internet” qui entre dans sa phase 3 et offre aux petites entreprises et “web entrepreneurs”, à la fois:
+des technologies “open source” (développées dans les phases 1 et 2 avec un budget de 200 M€) dont une bonne partie concernent l’internet des objets
+le financement - de 50 à 200 k€ - des projets exploitant ces technologies dans quasiment tous les secteurs d’activité (avec une enveloppe totale de 80 M€)
+Pour nous présenter et - surtout! - nous faire profiter de ces opportunités, nous pourrons compter sur Thierry Nagellen, “Program Manager Future Internet” qui pourra en particulier évoquer les appels à projets lancés ces 17 et 18 septembre lors de la conférence ECFI Munich 2014. Nous aurons également un premier retour d’expérience sur l’approche des technologies “Future Internet” dans le cadre du projet collaboratif ComSLoT porté par la TPE saint-quentinoise 4PLanet et l’UPJV-INSSET.
 
-                    {% if include.isStaticPost == false %}
-                        <div class="comments">
-                            {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
-                        </div>
-                    {% endif %}
+L’autre temps fort sera concentré sur des technologies proposées par Intel, notamment l’Intel NDK dont le but est d’optimiser les applications Android et les cartes électroniques Intel Galileo et Edison. 
 
-                </article>
-
-                {% if include.isStaticPost == false %}
-                    <div class="row text-center">
-                        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
-                        </p>
-                    </div>
-                {% endif %}
-
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Post -->
+Sans oublier bien sur, en ouverture de ce programme bien fourni: Maxime - l’animateur de notre Google Developer Group - nous présentera sa Google Watch et les spécificités d’Android Wear.</p>
