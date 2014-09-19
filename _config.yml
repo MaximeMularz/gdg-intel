@@ -101,8 +101,8 @@ mapMobileCenterCoordinates: "49.850780, 3.309139"
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
+venueSmallImage1: "cci-aisne-logo.gif"
+venueSmallImage2: "cci-aisne-1.jpg"
 venueSmallImage3: "venue_3.jpg"
 venueTitle: "CCI de l'Aisne"
 venueFeatures: ["3 salles de conférences", "proximité du centre ville"]
