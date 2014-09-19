@@ -2,16 +2,30 @@
 <section id="latest-news" class="latest-news">
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1">
-			<h3>{{ site.latestNewsTitle }}</h3>
+			<h3>Faubourg Numérique</h3>
 			<article class="row">
-				{% for post in site.posts limit:2 %}
-                    {% assign postUrl = site.baseurl | append: post.url %} 
+				
+               
 					<div class="post col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
-						<h6>{{ post.title }}</h6>
-						<p class="post-body">{{ post.content | strip_html | truncate: 250 }} <a href="{{ postUrl }}">continue reading</a></p>
+						<h6>Une stratégie</h6>
+                        <p class="post-body">
+Une stratégie “services et objets connectés” portée par des entrepreneurs et des universitaires de Haute Picardie pour ouvrir de nouvelles voies de développement économique 
+Faubourg Numérique, c'est d'abord un lieu de travail au cœur de Saint-Quentin: des bureaux et un atelier de prototypage (“Living Lab”) dédié à la mutualisation, l’échange et la collaboration entre ses contributeurs, entreprises ou porteurs de projets. Cet espace de coworking a été stratégiquement localisé au Faubourg d'Isle, à deux pas de la gare, du futur Pôle Universitaire (UPJV-INSSET, IUT) et de la plateforme de transfert technologique INNOVALTECH: le but est de créer un effet de cluster afin de stimuler et dynamiser les travaux collaboratifs entre les entreprises, les étudiants et les enseignants-chercheurs, autour de projets de services et objets connectés, rassemblant les compétences complémentaires développées localement: mécanique numérique, systèmes embarqués, cloud computing et logistique. Pour compléter le panel des compétences, des relations étroites sont également établies avec l’IAE d’Amiens pour intégrer une vision marketing et commerciale dès le début des projets. 
+
+                            
+                        </p>
 					</div>
-                {% endfor %}
-			</article>
+              
+			
+            
+            
+            
+            
+            
+            
+            </article>
+            
+            
 		</div>
 	</div>
 </section>
