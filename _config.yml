@@ -59,7 +59,7 @@ heroButtons:
  - {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # About Block
-aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
+aboutTitle: "Journée \"Services & Objets Connectés\" "
 aboutBlock:
  - {title: "Conférences", image: "conference.jpg", text: "Intel NDK" }
  - {title: "Ateliers", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
