@@ -7,7 +7,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 # Site Settings
 title: "GDG Hi Pic"
 email: "faubourgnumerique@gmail.com"
-description: "Faubourg Numérique organise une journée \"Systèmes & Objets Connectés\" le 15 Octobre à Saint-Quentin."
+description: "Faubourg Numérique organise une journée \"Services & Objets Connectés\" le 15 Octobre à Saint-Quentin."
 baseurl: "/gdg-intel"
 url: "http://gdg-x.github.io"
 permalink: "/blog/:title"
@@ -22,7 +22,7 @@ organizerEmail: "faubourgnumerique@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://gdg-hi-pic.appspot.com/"
 
-# Head
+# Heads
 metaKeywords: "objets, gdg, connectes, google, programmation, android, wear, developers, picardie"
 twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
@@ -59,7 +59,7 @@ heroButtons:
  - {permalink: "https://www.eventbrite.fr/e/billets-journee-systemes-objets-connectes-13025980057", text: "Inscriptions"}
 
 # About Block
-aboutTitle: "Journée \"Systèmes & Objets Connectés\" "
+aboutTitle: "Journée \"Services & Objets Connectés\" "
 aboutBlock:
  - {title: "Conférences", image: "conference.jpg", text: "Intel NDK" }
  - {title: "Ateliers", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
